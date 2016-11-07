@@ -1,0 +1,21 @@
+body {
+  font-size: 60%;
+  margin: 0;
+}
+
+h1 {
+  font: 2rem arial, helvetica, sans-serif;
+  text-align: center;
+  border-bottom-style: solid;
+  padding-bottom: 1.5rem;
+}
+
+.record {
+  border-style: solid;
+  border-radius: .5rem;
+  font: 1rem arial, hevletica, sans-serif;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
