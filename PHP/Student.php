@@ -1,6 +1,6 @@
 <?php
 
-	class Student {
+class Student {
 
    public $name;
    public $age;
@@ -67,12 +67,12 @@
      return "Added " . $class;
    }
 
-   public function __toString()
-   {
+   public function __toString() {
      if ($this->getGradYear() <= 2017) {
        return $this->getName() . " will be able to graduate soon!";
-     } else {
+     }
+     else {
        return $this->getName() . " won't be able to graduate soon... :(";
      }
    }
-	}
+}
